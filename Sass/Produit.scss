@@ -1,0 +1,181 @@
+#Voir_panier{
+		
+	color: white;
+	background-color: green;
+	width: 50%;
+	border-radius: 2%;
+	border: green;
+	height: 5vw;
+	margin-bottom: 10%;
+	cursor: pointer;
+
+}
+
+
+.products
+{
+	background-color: rgba(black, 0.1);
+	display: flex;
+	justify-content: center;
+	.pagin{ 
+		margin-top: 5%;
+		width: 50%;
+
+		
+		.product{
+		height: 100%;
+		
+	
+		flex-direction: column;
+			.product_presentation
+			{
+				background-color: rgba(black, 0.4);
+				height: 100%;
+				#titre{
+					font-size: 3em;
+					text-align: center;
+					padding-top: 2%
+		
+				}
+			}
+
+		#image
+		{
+			display: flex;
+			justify-content: center;
+			margin-top: 5%;
+			
+		#images
+		{
+				width: 70%;
+				height: 70%;
+		}
+		}
+		}
+		.under_product{
+			height: 100%;
+			background-color: white;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+
+			#title_description
+			{
+				padding-top: 2%;
+				font-size: 2.3em;
+				text-align: center;
+				font-weight: bold;
+			}
+			#description
+			{
+				margin-top: 2%;
+				font-size: 1.5em;
+				text-align: center;
+				padding-bottom: 5%;
+			}
+		}
+	}
+
+	._buypagin
+	{
+		margin-top: 5%; 
+		margin-left: 5%; 
+		background-color: white; 
+		width: 30%;
+		.button_buy_placement
+		{
+
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		align-items: center;
+		position: relative;
+		margin-top: 3%;
+		
+	&:after
+	{
+		content: "";
+		position: absolute;
+		border-bottom: 2px solid rgba(green, 0.6);
+		top: 80%;
+		left: 0%;
+		height: 20px;
+		width: 100%;
+	}
+	
+		#button_buy
+		{
+			color: white;
+			background-color: green;
+			width: 50%;
+			border-radius: 2%;
+			border: green;
+			height: 5vw;
+			margin-bottom: 10%;
+			cursor: pointer;
+
+		}
+	}
+
+	} 
+}
+.picture_position
+{
+	position: relative;
+}
+
+
+.svg-left{
+	width: 5%;
+	position: absolute;
+	top: 35%;
+	left: 15%; 
+	cursor: pointer;
+}
+.svg-right{
+	width: 5%;
+	position: absolute;
+	top: 35%;
+	left: 80%;
+	cursor: pointer;
+}
+
+.personnalisation_placement
+{
+margin-left: 2%;
+
+.personnalisation
+{
+	font-size: 1.5em;
+}
+
+}
+
+.price_placement
+{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin-top: 2%;
+	font-size: 2em;
+	font-weight: bold;
+	padding-bottom: 2%;
+} 
+.contenu_panier
+{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 2em;
+} 
+.Objet
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: rgba(green, 0.6);
+	padding: 10px 30px 10px 30px;
+	border: 1px solid green;
+
+}
+

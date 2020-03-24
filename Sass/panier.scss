@@ -1,0 +1,40 @@
+#init
+{
+	width: fit-content;
+	border-color: solid 1 green;
+	font-size: 1.8em;
+	padding-bottom: 75px;
+}
+#form_id
+{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 1.4; 
+	label{
+		margin-top: 5px;
+		margin-bottom: 5px;
+		font-size: 1.4; 
+	}
+	input{
+		margin-bottom: 5px;
+	}
+	
+}
+
+#placement_init
+{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.input_panier
+{
+	border-color: rgba(green, 0.6);
+	background-color: rgba(green, 0.2);
+}
+
+ 

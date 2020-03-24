@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+html(lang="fr")
+
+		head
+			meta(charset="UTF-8")
+			meta(name="viewport", content="width=device-width, initial-scale=1.0")
+			meta(http-equiv="X-UA-Compatible", content="ie=edge")    
+			link(rel="stylesheet", href="../Css/main.css")
+        
+
+		body.products
+				div.pagin
+					div.product
+						div.product_presentation
+							h2#titre Title
+							div.picture_position
+								div#image image
+								img(src='../images/arrow-left.svg').svg-left#produitprecedent
+								img(src='../images/arrow-right.svg').svg-right#produitsuivant
+							
+						div.under_product
+							p#title_description Description de votre produit:
+							p#description Description
+							div.personnalisation_placement
+								p.personnalisation Une personnalisation ? :
+								div#dataname
+							div.price_placement
+								p#price 
+								p $
+							p Changer de produit
+							select#liste_produits
+								option#teddies Ours
+								option#cameras Cameras
+								option#furniture Meuble Chênes
+				div._buypagin
+					div.button_buy_placement
+						button#button_buy Ajoutez le produit au panier ! 
+						button#Voir_panier Finaliser mon achat  
+					div.contenu_panier
+						p Panier:
+						p#contenu_panier
+         
+				script(src="../produits.js") 

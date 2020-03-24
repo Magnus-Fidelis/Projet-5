@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+html(lang="fr")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        link(rel="stylesheet", href="../Css/main.css")
+        title Test
+
+
+    body
+        div#placement_init
+         div#init
+
+        div#formulaire
+            form#form_id
+                label(for="name") Nom:
+                input(type="text" name="name" required class="input_panier")#name
+                label(for="prenom") Prénom:
+                input(type="text" name="prenom" required class="input_panier")#prenom
+                label(for="ville") Ville:
+                input(type="text" name="ville" required class="input_panier")#ville
+                label(for="email") Indiquez votre email
+                input(type="email" name="email" required class="input_panier")#email
+                p#date 
+                button(id= "submit" type ="submit" name ="submit" onclick="sendForm()") Valider ma commande
+        script(src="../panier.js")
